@@ -5,7 +5,7 @@
 
 				const options = {
 					container: '#tify',
-					language: query.get('language') ?? 'en',
+					language: query.get('language') || 'en',
 					manifestUrl: query.get('manifest'),
 					urlQueryKey: 'tify',
 				};
